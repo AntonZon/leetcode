@@ -3,5 +3,5 @@
  * @return {boolean}
  */
 export function containsDuplicate(nums) {
-    return true;  
+    //return true;  
 };
