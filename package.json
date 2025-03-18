@@ -2,7 +2,7 @@
   "name": "javascript",
   "version": "1.0.0",
   "repository": "https://github.com/tdd-starters/javascript",
-  "author": "Daniel Raniz Raneland <raniz@factor10.com>",
+  "author": "Anton Onanchenko <onanchenko@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",
