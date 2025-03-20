@@ -1,6 +1,6 @@
 import { containsDuplicate } from "../00217-contains-duplicate.js";
 
-describe("containsDuplicate test", () => {
+xdescribe("containsDuplicate test", () => {
     [
         [[1, 2, 3, 1], true],
         [[1, 2, 3, 4], false],

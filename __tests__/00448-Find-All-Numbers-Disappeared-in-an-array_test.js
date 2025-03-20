@@ -1,13 +1,13 @@
 import { findDisappearedNumbers } from "../00448-Find-All-Numbers-Disappeared-in-an-array.js";
 
-xdescribe("findDisappearedNumbers test", () => {
+describe("findDisappearedNumbers test", () => {
     [
-        [[4,3,2,7,8,2,3,1], [5,6]],
-        [[1,1], [2]],
-      //  [[1, 1, 1, 2, 2, 2, 3, 3, 4], true],
+        [[4,3,2,7,8,2,3,1],[5,6]],
+        [[1,1],[2]],
+        [[],[]],
     ].forEach((it) => {
         const [expression, expected] = it;
-        test('x', () => {
+        test(`long array`, () => {
             const result = findDisappearedNumbers(expression);
 
             expect(result).toEqual(expected);
