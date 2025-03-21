@@ -2,12 +2,19 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-export function construct2DArray(original, m, n) {
-    let output[][];
-    for (let j = 0; j < m; j++) {
-        for (let i = 0; i < n - 1; i++) {
-            output[j][i]=original[j*n+i];
+export function construct2DArray(nums , m, n) {
+    let output = [];
+    if (nums.length == m * n) {
+        if (m==1) return nums;
+        
+        for (let j = 0; j < m; j++) {
+            output[j] = [];
+            for (let i = 0; i < n; i++) {
+                output[j][i] = nums[j*n + i];
+            }
         }
     }
+
+    
     return output;
 };
